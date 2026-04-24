@@ -13,7 +13,7 @@
 
   &__header {
     text-align: left;
-    color: var(--Secondary-2);
+    color: var(--Primary);
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
@@ -73,7 +73,7 @@
   }
 
   &__item {
-    background-color: var(--Secondary);
+    background-color: #102661;
     border-radius: 0.8rem;
     padding: 0.8rem;
     display: grid;
@@ -121,7 +121,7 @@
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.2;
-    color: var(--Black);
+    color: var(--White);
     margin: 0;
     white-space: normal;
     grid-column: 2 / 3;
@@ -141,7 +141,7 @@
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.3;
-    color: var(--Black);
+    color:var(--White);
     margin: 0;
     width: 100%;
     grid-column: 2 / 3;

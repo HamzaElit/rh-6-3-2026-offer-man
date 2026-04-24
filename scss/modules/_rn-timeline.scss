@@ -25,7 +25,7 @@
     font-size: 28px;
     font-weight: 700;
     line-height: 1.2;
-    color: var(--Secondary-2);
+    color: var(--Primary);
     text-align: left;
     width: 100%;
     margin: 0;
@@ -72,8 +72,8 @@
     }
 
     &.active {
-      border-bottom-color: var(--Secondary-2);
-      color: var(--Secondary-2);
+      border-bottom-color: var(--Primary);
+      color: var(--Primary);
     }
   }
 
@@ -112,8 +112,8 @@
   }
 
   &__item-tag {
-    background-color: var(--Secondary);
-    color: var(--Secondary-2);
+    background-color: #102661;
+    color: var(--White);
     font-family: var(--font-text);
     font-size: 16px;
     font-weight: 700;
